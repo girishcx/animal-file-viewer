@@ -35,3 +35,34 @@ This is a simple web application built using **Flask** and **HTML/CSS/JavaScript
 ```bash
 git clone https://github.com/YOUR_USERNAME/animal-file-viewer.git
 cd animal-file-viewer
+
+### 2. Set Up Python Environment
+bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+###3. Install Dependencies
+bash
+pip install flask
+
+###4. Run the App
+bash
+python app.py
+You should see output like:
+
+Code
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Then open your browser and visit: http://127.0.0.1:5000
+
+📁 Folder Structure
+Code
+animal-file-viewer/
+├── app.py
+├── templates/
+│   └── index.html
+├── static/
+│   └── images/
+│       ├── cat.jpg
+│       ├── dog.jpg
+│       └── elephant.jpg
+├── uploads/
